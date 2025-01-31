@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+
+#voltar {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 35px;
+    border-radius: 10%;
+}

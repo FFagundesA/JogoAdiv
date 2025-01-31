@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Adivinhação</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo ao Jogo da Adivinhação!</h1>
+        <audio id="audio" src="song.mp3" controls loop></audio>
+        <p>Pressione o botão de play para ouvir a música tema do jogo!</p>
+        <i>Como o jogo funciona?</i>
+        <p>Escolha os números máximo e mínimo dos quais o computador selecionará um número entre eles (incluíndo os extremos). Você terá que adivinhar o número. Boa sorte!</p>
+    </div>
+    <div class="labels">
+        <label for="min">Número mínimo</label>
+        <input id="min" name="min" placeholder="Digite o número mínimo">
+        <button id="saveMin">Salvar</button>
+    </div>
+    <div class="labels">
+        <label for="max">Número máximo</label>
+        <input id="max" name="max" placeholder="Digite o número máximo">
+        <button id="saveMax">Salvar</button>
+    </div>
+    <button id="btnNum">Gerar número aleatório!</button>
+    <div class="labelPal">
+        <label for="palpite">Seu palpite</label>
+        <input id="palpite" name="palpite" placeholder="Digite seu palpite">
+    </div>
+    <div class="buttons">
+        <button id="btn">Adivinhar!</button>
+        <button id="btnReset">Reiniciar</button>
+    </div>
+    <img src="gif.gif" alt="nyanCat" id="gif">
+    <script src="main.js"></script>
+</body>
+</html>
